@@ -229,6 +229,7 @@
     .footer img {
         margin: 100px auto;
         display: block;
-        width: 1000px;
+        width: 100%;
+        max-width: 1000px;
         filter: drop-shadow(6px 6px 27px #f20707);
     }
