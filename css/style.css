@@ -42,7 +42,7 @@
     }
     
     .wrapper {
-        background: url('../img/movie_image_path_middle_2757_5665.jpg') -150px 0 /auto repeat-y, url('../img/7040fdcb8a45b808c3575f6e76ac7b94.jpg') 108% 0 /auto repeat-y, url('../img/lgAAAgIsZeA-1920.jpg') center/cover fixed no-repeat;
+        background: url('../img/movie_image_path_middle_2757_5665.jpg') -150px 0 /auto no-repeat, url('../img/7040fdcb8a45b808c3575f6e76ac7b94.jpg') 108% 0 /auto no-repeat, url('../img/lgAAAgIsZeA-1920.jpg') center/cover fixed no-repeat;
         margin: 0px auto;
     }
     
