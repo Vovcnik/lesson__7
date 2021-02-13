@@ -16,7 +16,7 @@
 
             <p>Универсальное свойство <span>background</span> позволяет установить одновременно несколько характеристик фона. Значения могут идти в любом порядке, браузер сам определит, какое из них соответствует нужному свойству. Для подробного ознакомления
                 смотрите информацию о каждом свойстве отдельно. Допустимо, также, указывать параметры сразу нескольких фонов, перечисляя их через запятую.</p>
-            </p>
+
         </header>
 
         <nav class="nav">
@@ -47,15 +47,16 @@
             <div class=" block__item ">
                 <div class="block block__recording ">
                     <p>
-                        background-color: orange; background-image: url("../img/image.jpg"); background-position: center; background-repeat: no-repeat; repeat-x | repeat-y | [repeat | space | round | no-repeat]{1,2} background-size: cover; [
-                        <размер>
-                            |
-                            <проценты> | auto ]{1,2} | cover | contain background-attachment: fixed; fixed | scroll | local[, fixed | scroll | local]*
-                                <br> или
-                                <span>background: orange url("../img/image.jpg") center / cover no-repeat fixed; <span>
-						
-
+                        background-color: orange; background-image: url("../img/image.jpg"); background-position: center; background-repeat: no-repeat; repeat-x | repeat-y | [repeat | space | round | no-repeat]{1,2} background-size: cover; [ размер
                     </p>
+                    <p>
+                        | проценты | auto ]{1,2} | cover | contain background-attachment: fixed; fixed | scroll | local[, fixed | scroll | local]*
+                        <br> или
+                        <span>background: orange url("../img/image.jpg") center / cover no-repeat fixed; </span>
+                    </p>
+
+
+
                 </div>
             </div>
             <h2 id="color">background-color</h2>
@@ -69,19 +70,21 @@
             </div>
             <h2>radial-gradient</h2>
             <div class="block__item">
-                <div class="block block__gradient ">
+                <div class="block block__gradient">
                     <p>
-                        Функция radial-gradient() добавляет радиальный градиент к фону элемента. Радиальные по своему принципу похожи на линейные градиенты, но один цвет переходит в другой не вдоль прямой линии, а словно круги по воде вокруг точки. <br>                        <span> background: -webkit-radial-gradient(center, ellipse cover, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);</spa>
+                        Функция radial-gradient() добавляет радиальный градиент к фону элемента. Радиальные по своему принципу похожи на линейные градиенты, но один цвет переходит в другой не вдоль прямой линии, а словно круги по воде вокруг точки.</p>
+                    <br> <span> background: -webkit-radial-gradient(center, ellipse cover, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);</span>
 
-                    </p>
+
                 </div>
             </div>
             <h2 id="image">Background-image</h2>
             <div class=" block__item ">
                 <div class="block block__image ">
                     <p>
-							Устанавливает фоновое изображение для элемента. Если одновременно для элемента задан цвет фона, он будет показан, пока фоновая картинка не загрузится полностью. То же произойдет, если изображения не доступны или их показ в браузере отключен. В случае наличия в рисунке прозрачных областей, через них будет проглядывать фоновый цвет. Допустимо указывать несколько фоновых изображений, перечисляя их параметры через запятую.
-							<span>background-image: url(../img/31520.jpg);</span>
+                        Устанавливает фоновое изображение для элемента. Если одновременно для элемента задан цвет фона, он будет показан, пока фоновая картинка не загрузится полностью. То же произойдет, если изображения не доступны или их показ в браузере отключен. В случае
+                        наличия в рисунке прозрачных областей, через них будет проглядывать фоновый цвет. Допустимо указывать несколько фоновых изображений, перечисляя их параметры через запятую.
+                        <span>background-image: url(../img/31520.jpg);</span>
 
                     </p>
                 </div>
@@ -170,12 +173,12 @@
             </div>
             <div class="border"></div>
             <h2 id="size">Background-size: </h2>
-            <div class=" block__item ">
+            <div class="block__item ">
                 <div class="block block__size">
                     <p>
-                        <span><размер>
+                        <span>размер
 	Задаёт размер в любых доступных для CSS единицах — пикселях (px), сантиметрах (cm), em и др.
-<проценты>
+проценты
 	Задаёт размер фоновой картинки в процентах от ширины или высоты элемента.
 auto
 	Если задано одновременно для ширины и высоты (auto auto), размеры фона остаются исходными; если только для одной стороны картинки (100px auto), то размер вычисляется автоматически исходя из пропорций картинки. <br>background: url(../img/31520.jpg) 0 0 /200px no-repeat;
